@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>examen bootstrap</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<body>
+	<div>
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="padding: 0px;">
+			<ul class="navbar-nav" style="background-color:  #66e0ff;">
+				<li class="nav-item active"><a class="nav-link" href="index.html">Accueil</a></li>
+				<li class="nav-item "><a class="nav-link" href="blog.html">Blog</a></li>
+				<li class="nav-item "><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+				<li class="nav-item "><a class="nav-link" href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-2">
+				<h2 style="font-size:18px"> Tous les articles</h2>
+					<ul style="font-size: 12px;">
+						<li>Le charbon deMadagascar</li>
+						<li>Les bois de rose</li>
+						<li>Le ravintsara de Madagascar</li>
+					</ul>
+			</div>
+			<div class="col-md-8">
+				<h1 style="font-size:35px">Madagascar, un espoir pour la planete?</h1>
+					<p style="font-size: 12px;">14/04/20, MIDI Madagascar</p>
+					<img src="imgSalle004.jpg" class="rounded" alt="image" width="800" height="400">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="footer">
+						<p style="margin-top: 90px; border: grey; background-color: grey; "> &copy copyright 2021, by Emmanuel.</p>
+					</div>
+			</div>
+			<div class="col-md-2">
+				<h2 style="font-size: 18px;">Creer nouveau article:</h2>
+				<div class="form-group" style="font-size: 14px">
+					<label for="titre">Titre</label><br>
+					<input type="titre" class="form-control" name="titre">
+					<label>Date de creation</label><br>
+					<input type="Date" class="form-control" name="">
+					<label>Contenu</label><br>
+					<textarea placeholder=""></textarea><br>
+					<button type="button" class="btn btn-primary">Soumettre</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
